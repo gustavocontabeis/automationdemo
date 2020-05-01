@@ -1,4 +1,4 @@
-node(){
+node('tomcat-server'){
     stage('Cloning Git') {
         checkout scm
     }
